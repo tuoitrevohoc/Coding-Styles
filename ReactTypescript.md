@@ -17,12 +17,7 @@
 - Sử dụng danh từ cho tên biến. Đối với biến boolean xài `has/is`. Ví dụ: `hasHiv`.
 - Không sử dụng các từ viết tắt không thông dụng. Xem thừ viết tắt như 1 từ bình thường. 
 Ví dụ: `innerHtml` thay vì `innerHTML`, `userId` thay vì `userID`
-Ví dụ:
 
-```
-for (const user of users) {
-}
-```
 
 #### c. Phương thức/hàm:
 
@@ -49,6 +44,11 @@ function(thamSố1, thamSố2);
 
 - Sử dụng `const` và `let` để khai báo biến. Tránh sử dụng `var`.
 - Sử dụng `for (const item in collection)` để duyệt qua một tập hợp.
+```
+for (const user of users) {
+}
+```
+
 - Sử dụng `collection.map(item => convert(item))` để chuyển kiểu dữ liệu.
 - Sử dụng `event={() => this.method(parameters)}` trong jsx thay vì sử dụng `bind()`.
 - Sử dụng `async` và `await` lúc cần thiết thay vì xài promise `then` và `catch`.
