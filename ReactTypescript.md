@@ -24,7 +24,7 @@ Ví dụ: `innerHtml` thay vì `innerHTML`, `userId` thay vì `userID`
 - Sử dụng camelCase và bắt đầu bằng một động từ.
 - Không viết lại tên lớp trong tên hàm. Ví dụ trong lớp `Building`, xài tên `getInfo()` thay vì `getBuildingInfo()`.
 - Nếu không cần thiết, không khai cần báo kiểu trả về cho hàm.
-
+- Một hàm chỉ nên có một lệnh return.
 
 ### 2. Khoảng trắng và dòng trắng
 
@@ -39,6 +39,12 @@ function(thamSố1, thamSố2);
 
 - Sử dụng dòng trắng để phân cách các phần khác nhau của code 
 (giữa 2 member, giữa 2 class, giữa 2 đoạn code có ý nghĩa khác nhau).
+
+- Không sử dụng khoảng trắng  trong khi set property cho component
+
+```
+<Component property={value} />
+```
 
 ### 3. Các nguyên tắc chung:
 
